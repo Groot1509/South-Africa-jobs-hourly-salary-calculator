@@ -18,7 +18,7 @@ Clone the repository:
 
 bash
 Copy
-git clone https://github.com/your-username/south-africa-jobs-hourly-salary-calculator.git
+git clone https://github.com/Groot1509/South-Africa-jobs-hourly-salary-calculator
 Open index.html in your browser to start using the calculator.
 
 Contributing
