@@ -13,7 +13,8 @@ Technologies Used
 HTML5 for the structure of the web application.
 CSS3 for styling and responsive design.
 JavaScript for interactive calculations and dynamic content updates.
-For Daily New Insights of Jobs In Suth Africa and Salary, Visit: https://www.entryleveljobs.co.za/
+For Daily New Insights of Jobs In Suth Africa and Salary, Visit the most popular <a href="https://www.entryleveljobs.co.za/">Job Search Engine Portal</a>
+ Of South Africa.
 Getting Started
 Clone the repository:
 
