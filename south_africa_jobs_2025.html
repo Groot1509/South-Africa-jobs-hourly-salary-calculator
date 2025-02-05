@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Convert your salary to hourly wage using this South Africa Jobs 2025 Salary Converter.">
+    <meta name="keywords" content="South Africa Jobs 2025, Salary Calculator, Job Pay Rate, Hourly Wage Converter">
+    <meta name="author" content="YourSiteName">
+    <title>South Africa Jobs 2025 - Salary Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            background: white;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+            font-size: 22px;
+        }
+        input {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .backlink {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .backlink a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .backlink a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>South Africa Jobs 2025 - Salary Converter</h1>
+        <p>Convert your monthly salary to an hourly wage for 2025 job trends in South Africa.</p>
+
+        <input type="number" id="salary" placeholder="Enter Monthly Salary (ZAR)">
+        <button onclick="convertSalary()">Convert</button>
+
+        <div class="result" id="result"></div>
+
+        <div class="backlink">
+            <p>For more job insights, visit <a href="https://www.entryleveljobs.co.za/" target="_blank" rel="dofollow">South Africa Jobs 2025</a></p>
+        </div>
+    </div>
+
+    <script>
+        function convertSalary() {
+            let salary = document.getElementById("salary").value;
+            let hoursPerMonth = 160; // Standard 40-hour workweek (4 weeks)
+
+            if (salary && salary > 0) {
+                let hourlyRate = (salary / hoursPerMonth).toFixed(2);
+                document.getElementById("result").innerHTML = "Estimated Hourly Rate: R " + hourlyRate;
+            } else {
+                document.getElementById("result").innerHTML = "Please enter a valid salary.";
+            }
+        }
+    </script>
+
+</body>
+</html>
